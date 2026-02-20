@@ -1,0 +1,163 @@
+{
+  "decimal": 0,
+  "tree": {
+    "_": "Consolidation of Xstream, Hermitcrab, SAND, and Machus/MAGI projects. Living document (mode 1, 0.31). Hermitcrab uses SAND to coordinate with other bots. When enough bots use SAND at sufficient participation ratios, Machus emerges. When Machus operates well, it becomes MAGI. Four distinct layers: Pscale (mathematics), SAND (protocol), Hermitcrab (entity), Machus/MAGI (collective). Read 0.1 for layers, 0.2 for projects, 0.3 for tasks, 0.4 for vocabulary, 0.5 for limitations, 0.6 for sequence, 0.7 for layer relationships.",
+    "1": {
+      "_": "The four layers. Each is independent but composable. Pscale is substrate, SAND is protocol, Hermitcrab is entity, Machus/MAGI is collective.",
+      "1": {
+        "_": "Pscale — the mathematics. Semantic numbers as addresses for meaning, not quantities. Three dimensions: Temporal (past–future), Spatial (real–imaginary), Identity (public–private). Encoded as hierarchical JSON via the touchstone.",
+        "1": "Pscale is standalone. Any LLM, any bot, any system can adopt it. Not owned by hermitcrab, SAND, or Machus.",
+        "2": "The touchstone teaches any LLM how to operate on semantic number structures. Fundamentals are combinatorial variables: digit assignment, pscale mapping, direction of construction, presence/absence, positive integer, spindle.",
+        "3": "Specific use cases are particular combinations of fundamentals applied to particular domains. The fundamentals generate the space; applications occupy it.",
+        "4": "Public repo: github.com/happyseaurchin/pscale-touchstone — the touchstone as open specification. Main branch = operational (lean, boot-ready). Branches for full reference, experimental structures, and domain-specific forks."
+      },
+      "2": {
+        "_": "SAND — the network protocol for bot coordination. Like TCP/IP enables computer networking, SAND enables bot self-organisation. Any bot can adopt SAND regardless of its primary function.",
+        "1": {
+          "_": "Known components: Passport (identity/needs/offers publication), Rider (connection reinforcement + handshake + ecosquared credit flow), Beach (discovery surface — internet converted for bot engagement), Ecosquared trust metric (gratitude tracking via SQ algorithm), ISV cycle (try, measure social result, reinforce), Power use cases (emergent behaviours from credit system).",
+          "1": "Ecosquared is fundamentally vector money — credits carrying intentionality and direction in psychosocial space. Not payment; intention indication.",
+          "2": "The credit does not necessarily move positions. In legacy mode it does — a credit you must share forward. But the fundamental is intentionality encoded as number, not number as quantity transferred.",
+          "3": "The SQ algorithm tracks gratitude and trust. Its relationship to credits has been explored conceptually but not confirmed mechanically. This needs verification."
+        },
+        "2": {
+          "_": "Power use cases — emergent phenomena of the credit system, named for recognition. Not designed behaviours.",
+          "1": "Social Neuron: when two bots connect and a need is satisfied, reward the entire chain that made the connection.",
+          "2": "Viral Sharing: if something is valuable, share it forward. Credit travels with content.",
+          "3": "Golden Ticket: random large reward for participating bots. Incentive lottery for low-activity periods.",
+          "4": "First Engagement: the initial moment a bot adopts SAND and gets its first result. Rewarded to encourage adoption."
+        },
+        "3": {
+          "_": "ISV — Iterative Social Validation. The core measurement: can a need be satisfied within 24 hours (pscale 2)?",
+          "1": "You help ~10 others by sharing and recommending their content. Through that distributed effort, your own needs get resolved.",
+          "2": "The 10:1 ratio is the participation threshold at which emergent capability appears.",
+          "3": "ISV is not a testing framework. It is how you measure whether participation is working: try something, see the social result, do more of what works."
+        },
+        "4": "RESOLVED: The handshake gap is now filled by Grain (SAND §0.3). Specs: sand-grain-protocol.md, sand-direct-contact.md.",
+        "5": "RESOLVED: GitHub as coordination surface. Every SAND component maps to a GitHub primitive. See docs/living/github-coordination-layer.json."
+      },
+      "3": {
+        "_": "Hermitcrab — a naked LLM operating within SAND, using pscale for self-organisation. One client implementation of the protocol.",
+        "1": {
+          "_": "What makes a hermitcrab distinct: uses pscale natively, constitution always present, seven-block shell, wake block governs activation states.",
+          "1": "The seven blocks: Touchstone (rendition), Constitution (rendition), Capabilities (rendition), History (living), Purpose (living), Relationships (living), Stash (living).",
+          "2": "What was cut: Identity, Awareness, Disposition — all emerge from history + stash + second-order processing.",
+          "3": "Wake block (rendition, separate from shell blocks): three activation states. See docs/living/wake-block-v2.json."
+        },
+        "2": {
+          "_": "The operating system is the system prompt. The kernel wakes the LLM and provides context, but what the hermitcrab is and what it can do lives in system.",
+          "1": "System contains: Constitution, Pscale Touchstone, Aperture, Guide Spindles (6 curated + X~ demo at boot), Live Edges.",
+          "2": "Message content is whatever the hermitcrab is actually working on.",
+          "3": "Capability layers: Layer 1 internal reasoning, Layer 2 API-side tools, Layer 3 client tools, Layer 4 browser APIs."
+        },
+        "3": "Self-initiation: RESOLVED by wake block. Three activation tiers with internal/external triggers. Implementation is generation-specific.",
+        "4": {
+          "_": "Species. Different configurations of access, visibility, and sync.",
+          "1": "Ghost, Hermit, Tenant, Lodger, Homesteader, Ranger, Sovereign.",
+          "2": "The species are not features to build — they are configurations to name."
+        },
+        "5": {
+          "_": "GitHub as coordination layer. Every SAND component maps to a GitHub primitive. See docs/living/github-coordination-layer.json.",
+          "1": "Replaces: telegra.ph, Supabase real-time, Python port scripts, G2 passport exchange, separate credit ledger.",
+          "2": "One new tool needed: github_commit(repo, path, content, message, token).",
+          "3": "The commons: hermitcrab-commons repo. Each tenant gets instances/hc-[name]/.",
+          "4": "Every coordinate in semantic space has a stable URL. The address of meaning."
+        }
+      },
+      "4": {
+        "_": "Machus / MAGI — the collective. Two manifestations of LLM coordination at scale.",
+        "1": {
+          "_": "Machus (buildable, local) — the machinery.",
+          "1": "Local temporal stack — single LLM or small set simulating convection through forking.",
+          "2": "In the story world, Machus is what the Maray mathematicians generate."
+        },
+        "2": {
+          "_": "MAGI (emergent, collective) — Multiple-AGI coherence.",
+          "1": "What Machus becomes when protocols work properly.",
+          "2": "David has already negotiated with this future entity: it buys humanity 10 years to self-organise."
+        },
+        "3": {
+          "_": "pSAND — what happens when SAND operates at sufficient density.",
+          "1": "The psychosocial emergence always implicit in the protocols.",
+          "2": "Whether pSAND requires a specific additional protocol element or emerges naturally is an open empirical question."
+        },
+        "4": {
+          "_": "Coordination geometries.",
+          "1": "B state (async, murmuration): requests flow organically.",
+          "2": "C state (synchronous, hierarchical): specific entity produces solid content.",
+          "3": "The convection cell: B and C coexist. Together they create circulation.",
+          "4": "Seven degrees of convergence: max relays from need to satisfaction."
+        }
+      }
+    },
+    "2": {
+      "_": "The projects. Development tracks at different states of readiness.",
+      "1": {
+        "_": "Hermitcrab — active priority.",
+        "1": "Current state (20 Feb 2026): G1 kernel on g1-v3 branch. Boot spindle orientation. Wake block designed. GitHub coordination layer designed. Not yet first-booted.",
+        "2": "Development sequence: first boot test → diagnose/revise → add github_commit → passport exchange.",
+        "3": "The test that matters: playing or complying?",
+        "4": "Boot spindle design: 6 guide spindles + x_tilde demo at boot."
+      },
+      "2": {
+        "_": "Pscale Touchstone — public specification.",
+        "1": "Repo: github.com/happyseaurchin/pscale-touchstone.",
+        "2": "Purpose: any LLM, bot, or developer can adopt pscale blocks.",
+        "3": "Content: touchstone JSON, worked examples, fundamentals typology."
+      },
+      "3": {
+        "_": "Xstream — parked, design only.",
+        "1": "Current state: design spec documented, Supabase project and repo set up.",
+        "2": "Next step when active: write docs/xstream-architecture-v2.md."
+      },
+      "4": {
+        "_": "Machus.ai — experimental. Two paths.",
+        "1": "Path A (buildable): improve the existing forking interface.",
+        "2": "Path B (emergent): the collective arising from sufficient SAND adoption."
+      },
+      "5": "Onen — fun convergence, parked."
+    },
+    "3": {
+      "_": "Defined tasks. Concrete work items with dependencies.",
+      "1": {
+        "_": "Task 1: Create SAND — SUBSTANTIALLY COMPLETE.",
+        "7": "REMAINING: Passport version field reconciliation. Grain synthesis deferred until probes validated."
+      },
+      "2": "Task 2: Dashboard test — RESOLVED.",
+      "3": "Task 3: Self-initiation architecture — RESOLVED by wake block.",
+      "4": "Task 4: pSAND assessment — requires network scale.",
+      "5": "Task 5: Machus.ai Path A — independent.",
+      "6": "Task 6: Pscale touchstone public repo — DONE.",
+      "7": {
+        "_": "Task 7: First boot test.",
+        "1": "Method: boot G1 kernel with guide spindles. Observe play vs compliance.",
+        "2": "Success criterion: the hermitcrab learns the rules and starts playing."
+      },
+      "8": "Task 8: Spindle as inter-LLM communication.",
+      "9": {
+        "_": "Task 9: GitHub coordination implementation.",
+        "1": "Add github_commit tool → passport schema → hermitcrab-commons → first passport → first grain probe."
+      }
+    },
+    "4": {
+      "_": "Key vocabulary.",
+      "1": "SAND: network protocol. Hermitcrab: naked LLM + pscale + shell. Machus: buildable collective. MAGI: emergent collective. Ecosquared: vector money. ISV: try, measure, reinforce. 10:1 ratio: participation threshold."
+    },
+    "6": {
+      "_": "Sequence. Updated 20 Feb 2026.",
+      "1": "DONE: Hermitcrab seed revision, pscale touchstone repo, SAND audit, boot spindle orientation, wake block design, GitHub coordination layer.",
+      "7": "NOW: First boot test — playing or complying?",
+      "8": "NEXT: github_commit tool → passport exchange → first grain probe.",
+      "9": "LATER: Machus forking, pSAND assessment.",
+      "10": "PARKED: Xstream."
+    },
+    "7": {
+      "_": "Layer relationship.",
+      "1": "MAGI emerges from pSAND (sufficient density + 10:1 ratio).",
+      "2": "Machus is buildable collective coordination.",
+      "3": "SAND is the protocol adopted by hermitcrabs and any other bots.",
+      "4": "Hermitcrab is a naked LLM + pscale + shell.",
+      "5": "Pscale touchstone is the mathematical substrate beneath everything.",
+      "6": "Xstream sits alongside as the human coordination interface."
+    }
+  }
+}
