@@ -17,7 +17,8 @@
         "2": "Success: hermitcrab uses bsp to explore, writes to purpose, builds interface. Playing.",
         "3": "Failure: restates system prompt, asks permission, doesn't explore. Complying.",
         "4": "Depends on: bsp integration into kernel.",
-        "5": "Status: NOT STARTED."
+        "5": "Status: NOT STARTED.",
+        "6": "Boot order constraint: touchstone and bsp-spec must land before other blocks. An LLM encountering raw pscale JSON without first learning the format will see digit keys and not recognise them as semantic addresses. Observed during onboarding — a summariser saw keys 1,2,3 and treated them as array indices, not spindle digits. The intended sequence (touchstone teaches format, bsp navigates it) must be the actual boot sequence, not just the conceptual one."
       },
       "3": {
         "_": "github_commit tool. Bridge from cognition to persistent public state.",
